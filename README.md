@@ -1,1 +1,4 @@
 # GeneralAssemblyFinalProject
+## GIF
+
+![](GAfinalProjDemo.gif)

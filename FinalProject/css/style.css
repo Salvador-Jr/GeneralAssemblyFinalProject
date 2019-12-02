@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+body{
+  font-size: 16px;
+  background-color: #cbcbcb;
+  position: relative;
+  color:#3C3C3C;
+}
+header{
+  padding:0 200px;
+}
+nav
+{
+  text-align: center;
+  padding-top: 25px;
+
+}
+
+nav a
+{
+  text-align: center;
+  text-decoration:none;
+  margin: 10px ;
+  padding:0 1em;
+  font-weight: bold;
+
+}
+nav a:visited
+{
+  color: #262626;
+}
+nav a:hover
+{
+  background-color: #aaaaaa;
+}
+main{
+  padding:50px 0;
+}
+section{
+  padding:50px 0;
+}
+h1{
+  font-family: "OpenSansCondensed", monospace;
+  padding: 15% 5%;
+  text-align: center;
+  color:black;
+
+}
+
+
+
+
+h2{
+  font-family: "OpenSansCondensed", monospace;
+  text-align: center;
+  font-size:1.2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 2% 2%;
+
+}
+
+h2 + hr{
+  height:1px;
+  margin:0 0 2.5em;
+
+
+}
+h3{
+  font-family: "OpenSansCondensed", monospace;
+  text-align: center;
+  font-size:1.2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 1% 1%;
+  height:1px;
+  margin:0 0 2.5em;
+}
+img{
+  width:100%;
+}
+
+p {
+  font-size:1em;
+  line-height: 1.6em;  
+  font-family: 'OpenSansCondensed', monospace;
+}
+label{
+  font-family: 'OpenSansCondensed', monospace;
+  color:#fff;
+  padding:0 32px;
+  font-size: .8em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: none;
+}
+/*.photo
+{
+  display: block;
+  width:40%;
+  float:left;
+  padding: 2.5%;
+  margin:2.5%;
+}*/
+.photo{
+  width:15%;
+  padding:1%;
+  /*margin:1%;*/
+  float:left;
+}
+.photoPage{
+  width:15%;
+  padding:1%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.clearfix:after{
+  height:0;
+  font-size:0;
+  visibility:hidden;
+  display:block;
+  content:" ";
+  clear:both;
+}
+.hero
+{
+  background:url("images/long.jpg");
+  background-size: cover;
+  height: 650px;
+}
+#toggle{
+  display: none;
+}
+
+#wrapper{
+  width:90%;
+  margin:auto;
+}
+
+
+
+@media screen and (max-width:1645px){
+  .photo{
+    width:48%;
+    height: 651px;
+  }
+  .photoPage{
+    width:48%;
+    height: 651px;
+  }
+}
+
+@media screen and (max-width:1220px){
+  header{
+    padding:0 10%;
+  }
+
+  .photo{
+    height: 560px;
+  }
+.photoPage{
+    height: 560px;
+  }
+
+}
+
+@media screen and (max-width:1000px){
+  .photo{
+    width:100%;
+    float:none;
+    height: auto;
+  }
+  .photoPage{
+    width:100%;
+    float:none;
+    height: auto;
+
+  }
+}
+@media screen and (max-width:750px){
+ 
+
+  nav a:link{
+    display: block;
+    padding:15px;
+    margin:5px;
+  }
+
+  h1{
+    margin:40px 0 0;
+    display:none;
+
+  }
+
+  header{
+    padding:0 2%;
+  }
+
+ nav {
+    float:none;
+    padding-top: .1%;
+
+  }
+  nav a {
+    width:auto;
+    float:none;
+  }
+.hero
+{
+
+  height: 400px;
+}
+}
